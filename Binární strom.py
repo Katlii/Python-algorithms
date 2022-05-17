@@ -1,3 +1,9 @@
+#Navrhněte postup, jak určit, zda je zadaný strom symetrický podle svislé osy vedené kořenem stromu. 
+#Jde nám pouze o tvar stromu, na hodnotách atributu info v jeho vrcholech vůbec nezáleží. 
+#Algoritmus popište slovně, zdůvodněte jeho správnost a odvoďte jeho časovou složitost. 
+#O(V+T) kde V-pocet vrcholu, a T-pocet mnozina hran
+#nebo O(logN) - BFS method (prohledovani do sirky)
+
 class Vrchol:
     def __init__(self, x = None, levy = None, pravy = None):
         self.info = x          # uložená hodnota
