@@ -1,3 +1,7 @@
+#Je dáno přirozené číslo n a nějaká permutace množiny čísel {1, 2, 3, ..., n}. 
+#Navrhněte efektivní algoritmus, který k zadané permutaci najde permutaci bezprostředně následující v lexikografickém uspořádání.
+#O((n)
+
 def nextPermutation(self, permutace):
         n=len(permutace)
         if n<2:
