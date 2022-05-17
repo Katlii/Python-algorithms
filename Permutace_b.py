@@ -1,3 +1,6 @@
+#Jsou dána dvě přirozená čísla n a k. Hodnota k je z rozmezí od 1 do n!. 
+#Navrhněte efektivní algoritmus, který najde v pořadí k-tou permutaci množiny čísel {1, 2, 3, ..., n} v lexikografickém uspořádání.
+
 def find_first_Index(k, n):
     if (n == 1):
         return 0, k
